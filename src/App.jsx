@@ -1,13 +1,17 @@
 import './App.css'
-
+import DaisyNav from './Components/DaisyNav/DaisyNav'
+import NavBar from './Components/NavBar/NavBar'
+import PriceOptions from './Components/PriceOptions/PriceOptions'
+import LineChart from './Components/LineCharts/LineChart'
 function App() {
 
 
   return (
     <>
-      <div>
-        <h2 className='text-2xl'>Hello</h2>
-      </div>
+      <NavBar></NavBar>
+      {/* <DaisyNav></DaisyNav> */}
+      <PriceOptions></PriceOptions>
+      <LineChart></LineChart>
     </>
   )
 }
